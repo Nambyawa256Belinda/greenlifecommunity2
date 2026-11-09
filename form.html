@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Join Us - Green Life</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .form-container{ max-width:500px; margin:20px auto; background:#e8f5d8; padding:25px; border-radius:12px; border:1px solid #333; }
+    .form-container h2{ text-align:center; color:#0f4d0f; margin-bottom:15px; }
+    .form-container label{ display:block; margin-top:12px; font-weight:bold; font-size:14px; }
+    .form-container input, .form-container select, .form-container textarea{
+      width:100%; padding:10px; margin-top:5px; border:1px solid #999; border-radius:6px;
+    }
+    .form-container button{
+      width:100%; background:#0f4d0f; color:white; padding:12px; margin-top:20px; border:none; border-radius:6px; font-weight:bold; font-size:16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Volunteer sign-up form</h2>
+    <form>
+      <label>Full name</label>
+      <input type="text" placeholder="e.g. Maria Belinda" required>
+      
+      <label>Phone number</label>
+      <input type="tel" placeholder="07xx xxx xxx" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="e.g. belinda@gmail.com">
+
+      <label>Where do you live?</label>
+      <select>
+        <option>Kampala</option>
+        <option>Wakiso</option>
+        <option>Mukono</option>
+        <option>Other</option>
+      </select>
+
+      <label>Why do you want to join?</label>
+      <textarea rows="4" placeholder="I want to help clean my community..."></textarea>
+
+      <button type="submit">SUBMIT APPLICATION</button>
+    </form>
+  </div>
+</body>
+</html>

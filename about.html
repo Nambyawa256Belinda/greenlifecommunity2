@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><title>About Us</title><link rel="stylesheet" href="style.css">
+<style>
+  .about-wrapper { display: flex; gap: 30px; align-items: flex-start; }
+  .about-wrapper .about-img { flex: 1; width: 50%; }
+  .about-wrapper .about-img img { width: 100%; height: 500px; object-fit: cover; border-radius: 10px; }
+  .about-wrapper .about-text { flex: 1; width: 50%; }
+  @media (max-width: 700px) { .about-wrapper { flex-direction: column; } .about-wrapper .about-img, .about-wrapper .about-text { width: 100%; } }
+</style>
+</head>
+<body>
+<header><img src="IMAGES/logo.jpg" class="logo"><div><h1>GREEN LIFE COMMUNITY</h1><p>Green Choices Today, Healthy Tomorrows</p></div></header>
+<nav><a href="index.html">HOME</a><a href="about.html" class="active">ABOUT US</a><a href="programs.html">PROGRAMS</a><a href="gallary.html">GALLERY</a><a href="contact.html">CONTACT US</a></nav>
+<div class="container">
+<p class="subtitle"><i><b>Who we are and what we stand for.</b></i></p>
+<div class="about-wrapper">
+  <div class="about-text">
+    <h3>OUR BACKGROUND</h3>
+    <p>Green Life Community is a community-focused environmental initiative created to encourage people to take practical steps toward a cleaner and healthier environment. The organization promotes conservation, responsible waste management, environmental education and community participation.</p>
+    <h3>MISSION</h3>
+    <p>To empower communities to protect the environment through education, sustainable practices, conservation and collective action.</p>
+    <h3>VISION</h3>
+    <p>A clean, green and environmentally responsible community where people and nature thrive together.</p>
+    <h3>OUR VALUE</h3>
+    <p>Sustainability  &bull;Community participation  &bull; Responsibility  &bull; Innovation  &bull; Environmental stewardship</p>
+    <h3>WHAT WE DO</h3>
+    <p>&#10003;We plant trees in schools and communities </p>
+    <p>&#10003;Teach households how to separate waste and we collect plastics for recycling</p>
+    <p>&#10003;Monthly clean ups, school education and working with local communities</p>
+  </div>
+  <div class="about-img">
+    <img src="IMAGES/planting.jpg" alt="Tree Planting">
+  </div>
+</div>
+</div>
+<footer><img src="IMAGES/logo.jpg" class="logo"> GREEN LIFE COMMUNITY | All rights reserved.</footer>
+</body>
+</html>
